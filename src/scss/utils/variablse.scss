@@ -1,0 +1,22 @@
+:root {
+  --font-inter: "Inter", sans-serif;
+
+  // Font weight
+  --font-regular: 400;
+  --font-medium: 500;
+  --font-bold: 700;
+  
+//Font size
+  --size-title: 60px;
+  --size-line: 72px;
+  --size-biggest: 2.5rem; // 40px
+  --size-big: 2.125em; // 34px
+  --size-subtitle: 1.875rem; //30px 
+  --size-subtitle-medium: 1.5rem; //24px
+  --size-subtitle-small: 1.375rem; //22px
+  --size-normal-big: 1.25rem; //20px
+  --size-normal-18: 1.125rem; //18px
+  --size-normal: 1rem; // 16px
+  --size-normal-small: 0.875rem; // 14px
+  --size-small: 0.750rem; // 12px
+}

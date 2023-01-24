@@ -1,0 +1,33 @@
+.form {
+  margin-top: 40px;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  width: 300px;
+
+  &__btn {
+    outline: none;
+    background: transparent;
+    border: 1px solid #d9d9d9;
+    padding: 10px 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    &:hover {
+      border: 1px solid #000000;
+    }
+  }
+  &-json {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 300px;
+  }
+
+  &_edit {
+    display: none;
+  }
+  &_edit_visible {
+    display: flex;
+  }
+}
